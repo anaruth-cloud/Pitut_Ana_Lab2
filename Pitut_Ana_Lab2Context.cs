@@ -4,5 +4,6 @@ public class Pitut_Ana_Lab2Context(DbContextOptions<Pitut_Ana_Lab2Context> optio
 {
     public DbSet<Pitut_Ana_Lab2.Models.Book> Book { get; set; } = default!;
     public DbSet<Pitut_Ana_Lab2.Models.Publisher> Publisher { get; set; } = default!;
-    public DbSet<Pitut_Ana_Lab2.Models.Author> Author { get; set; } = default!; 
+    public DbSet<Pitut_Ana_Lab2.Models.Author> Author { get; set; } = default!;
+    public DbSet<Pitut_Ana_Lab2.Models.Category> Category { get; set; } = default!;
 }
